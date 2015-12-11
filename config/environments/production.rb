@@ -80,4 +80,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  
+  #Required for device. Type down real URL page
+  config.action_mailer.default_url_options = { host: 'https://yelpdemo-ladislavturanyi.c9users.io/'}
+  
 end
